@@ -1,0 +1,1826 @@
+body{
+    color: inherit;
+    text-decoration: none;
+    
+
+}
+
+/* first part this is the image and logo section*/
+.head{
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    
+}
+.image1{
+    width:100%;
+  height: 560px;
+  object-fit: cover;
+    
+   
+}
+.logoimg{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    right: -47px;
+    bottom: 571px;
+    object-fit: contain;
+    aspect-ratio: 1/1;
+    
+}
+.textpart{
+    width: 66%;
+    height: 560px;
+    background-color: #FF6900;
+    text-align: center;
+    
+    
+   
+}
+.textpart h1{
+    padding-top: 30px;
+    font-family: 'Archivo Black', arial, sans-serif;
+    font-size: 39px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+.textpart p{
+    padding-top: 10px;
+    font-size: 22px;
+    font-family: 'Montserrat', arial, sans-serif;
+    
+    line-height: 1.5;
+    
+    letter-spacing: normal;
+    
+    
+}
+.textpart button{
+    background-color: black;
+    color: white;
+    width: 309px;
+    height: 42px;
+    position: relative;
+    top: 90px;
+    border-radius: 4px;
+   
+}
+.textpart a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logopart{
+    width: 70%;
+   
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) /* for laptop in first part*/
+{
+   .head{
+    flex-direction: column;
+   }
+   .textpart{
+    width: 100%;
+    position: relative;
+    bottom: 158px;
+   }
+   
+   .image1{
+    width: 143%;
+    object-fit: cover;
+   }
+   .textpart h1{
+    padding-top: 30px;
+    font-family: 'Archivo Black', arial, sans-serif;
+    font-size: 39px;
+    line-height: 1.5;
+}
+   .textpart p{
+    padding-top: 10px;
+    font-size: 22px;
+    font-family: 'Montserrat', arial, sans-serif;
+    
+    line-height: 1.5;
+    
+    letter-spacing: normal;
+    
+    
+}
+.textpart button{
+    background-color: black;
+    color: white;
+    width: 309px;
+    height: 42px;
+    position: relative;
+    top: 90px;
+    border-radius: 4px;
+   
+}
+.textpart a{
+    text-decoration: none;
+    color: inherit;
+}
+
+}
+@media screen and (min-width:480px) and (max-width:768px) /* for tablet in first part*/
+{
+   .head{
+    flex-direction: column;
+   }
+   .textpart{
+    width: 100%;
+    position: relative;
+    bottom: 158px;
+   }
+   
+   .image1{
+    width: 143%;
+    object-fit: cover;
+   }
+   .textpart h1{
+    padding-top: 30px;
+    font-family: 'Archivo Black', arial, sans-serif;
+    font-size: 39px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+   .textpart p{
+    padding-top: 10px;
+    font-size: 26px;
+    font-family: 'Montserrat', arial, sans-serif;
+    
+    line-height: 1.5;
+    word-wrap: break-word;
+    letter-spacing: normal;
+    
+    
+}
+.textpart button{
+    background-color: black;
+    color: white;
+    width: 309px;
+    height: 42px;
+    position: relative;
+    top: 90px;
+    border-radius: 4px;
+   
+}
+.textpart a{
+    text-decoration: none;
+    color: inherit;
+}
+}
+@media screen and (min-width:320px) and (max-width:480px) /* for mobile in first part*/
+{
+   .head{
+    flex-direction: column;
+   }
+   .textpart{
+    width: 100%;
+    position: relative;
+    bottom: 158px;
+    
+   }
+   
+   .image1{
+    width: 143%;
+    object-fit: cover;
+   }
+   .textpart h1{
+    padding-top: 30px;
+    font-family: 'Archivo Black', arial, sans-serif;
+    font-size: 32px;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+   .textpart p{
+    padding-top: 10px;
+    font-size: 28px;
+    font-family: 'Montserrat', arial, sans-serif;
+    
+    line-height: 1.5;
+    
+    letter-spacing: normal;
+    
+    
+}
+.textpart button{
+    background:linear-gradient(rgb(8, 6, 6),rgb(5, 0, 0));
+    color: white;
+    width: 80vw;
+    height: 42px;
+    position: relative;
+    top: 27px;
+    border-radius: 10px;
+
+   
+}
+.textpart a{
+    text-decoration: none;
+    color: inherit;
+}
+}
+@media screen and (max-width:320px) /* for mobile and less pixes in first part*/
+{
+   .head{
+    flex-direction: column;
+   }
+   .textpart{
+    width: 100%;
+    
+    position: relative;
+    bottom: 158px;
+   }
+   
+   .image1{
+    width: 143%;
+    object-fit: cover;
+   }
+   .logoimg{
+    width: 50vw;
+    
+    position: relative;
+    right: -47px;
+    bottom: 571px;
+    object-fit: contain;
+    aspect-ratio: 1/1;
+    
+}
+   .textpart h1{
+    padding-top: 30px;
+    font-family: 'Archivo Black', arial, sans-serif;
+    font-size: 20px;
+    
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+   .textpart p{
+    
+    font-size: 18px;
+    font-family: 'Montserrat', arial, sans-serif;
+    word-wrap: break-word;
+    line-height: 1.5;
+    
+    
+    
+    
+}
+.textpart button{
+    background-color: black;
+    color: white;
+    width: 60vw;
+    height: 42px;
+    position: relative;
+    top: 40px;
+    border-radius: 4px;
+    font-size: 7px;
+   
+}
+.textpart a{
+    text-decoration: none;
+    color: inherit;
+}
+} 
+/* second part this is round images css */
+.services{
+    display: flex;
+    text-align: center;
+    align-items: center;
+   
+}
+
+h2{
+    text-align: center;
+    font-size: 42px;
+    position: relative;
+    bottom: 60px;
+    color: rgb(247, 102, 0);
+    font-family: 'Archivo Black', arial, sans-serif;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    
+} 
+.services img{
+    width: 28vw;
+    
+    border-radius: 50%;
+   
+    
+}
+.services p{
+    word-wrap: break-word;
+    width: fit-content;
+    line-height: 1.5;
+    
+    text-align: center;
+   padding-left: 5px;
+}
+
+
+
+@media screen and (max-width:320px)  /* for mobile and less pixes in second part*/
+{
+   .services{
+    flex-direction: column;
+   }
+   .services p{
+    word-wrap: break-word;
+    width: fit-content;
+   }
+   .services a{
+    word-wrap: break-word;
+   }
+
+
+
+}
+@media screen and (min-width:320px) and (max-width:480px)/* for mobile in second part*/
+{
+    .services{
+     flex-direction: column;
+    }
+    .services p{
+        word-wrap: break-word;
+        width: fit-content;
+    }
+    .services img{
+        width: 75vw;
+        
+        border-radius: 50%;
+       
+        
+    }
+   
+ }
+ @media screen and (min-width:480px) and (max-width:768px)/* for tablet in second part*/
+ {
+    .services{
+     flex-direction: column;
+    }
+    .services img{
+        width: 75vw;
+        
+        border-radius: 50%;
+       
+        
+    }
+ }
+ @media screen and (min-width:768px) and (max-width:1024px)/* for laptop in second part*/
+ {
+    .services{
+     flex-direction: column;
+    }
+    .services img{
+        width: 60vw;
+        
+        border-radius: 50%;
+       
+        
+    }
+ }
+ /* third part is customer review and findout more */
+ .reviews {
+    margin-top: 40px;
+    
+    width: 100%;
+    height: 40vh;
+    background-image: url(images/person.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    
+ }
+    
+ .reviews h1{
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    right: 1%;
+    top: 18%;
+   word-wrap: break-word;
+  
+   font-family: 'Montserrat', arial, sans-serif;
+   text-transform: uppercase;
+   font-weight: 40px;
+   font-size: 40px;
+  
+ }
+ .reviews button{
+    color: white;
+    background-color: rgb(19, 1, 1);
+    position: relative;
+    left: 13%;
+    top: 25%;
+    width: 68vw;
+    height: 10vh;
+    background-color: rgb(13 13 13 / 87%);;
+    letter-spacing: normal;
+    box-sizing: inherit;
+    text-transform: none;
+    font-size: 1.5em;
+}
+
+ 
+ .findout{
+    display: flex;
+    
+    
+    
+ }
+ .review1 img{
+    width: 50vw;
+    height: 60vh;
+    object-fit: cover;
+ }
+ .review2{
+    text-align: start;
+   
+    
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    
+ }
+ .review2 a{
+    color: inherit;
+    text-decoration: none;
+ }
+ .review2 button{
+    text-align: center;
+   word-wrap: break-word;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', arial, sans-serif;
+    font-size: 1.2rem;
+    padding-left: 32px;
+    padding-right: 32px;
+    cursor: pointer;
+   
+
+ }
+
+ .review2 h1{
+    font-family: 'Montserrat', arial, sans-serif;
+    word-wrap: break-word;
+ }
+ .review2 h6{
+    font-family: 'Montserrat', arial, sans-serif;
+    line-height: 1.5;
+    font-size: 0.7rem;
+ }
+ .review2 span{
+    word-wrap: break-word;
+    line-height: 2;
+    font-family: 'Montserrat', arial, sans-serif;
+    font-weight: 1.5em;
+    text-transform: none;
+    font-size: 1.3em;
+   
+    
+ }
+
+
+ @media screen and (max-width:320px)  /* for mobile and less pixes in third part*/
+ {
+    .findout{
+       flex-direction: column;
+    }
+    .review1 img{
+      width: 100%;
+      height: auto;
+    }
+    .review2{
+        text-align: start;
+       
+        padding-left: 4VH;
+        text-transform: none;
+       
+        
+     }
+     .review2 a{
+        color: inherit;
+        text-decoration: none;
+     }
+     .review2 button{
+        text-align: center;
+        word-wrap: break-word;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        text-transform: uppercase;
+        background-color: black;
+        color: white;
+        font-family: 'Montserrat', arial, sans-serif;
+        font-size: 1.2rem;
+        width: 100%;
+       
+       
+    
+     }
+     .review2 h1{
+        font-family: 'Montserrat', arial, sans-serif;
+        word-wrap: break-word;
+     }
+     .review2 h6{
+        font-family: 'Montserrat', arial, sans-serif;
+        line-height: 1.5;
+        font-size: 0.7rem;
+     }
+     .review2 span{
+        word-wrap: break-word;
+        line-height: 2;
+        font-family: 'Montserrat', arial, sans-serif;
+        font-weight: 1.5em;
+        text-transform: none;
+        font-size: 1.3em;
+       
+        
+     }
+    .reviews {
+        margin-top: 40px;
+        
+        max-width: 100%;
+        height: 22vh;
+        background-image: url(images/person.jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+       
+        
+        
+     }
+        
+     .reviews h1{
+        color: #ffffff;
+        text-align: center;
+        position: relative;
+        right: 1%;
+        top: 18%;
+       word-wrap: break-word;
+      
+       font-family: 'Montserrat', arial, sans-serif;
+       text-transform: uppercase;
+       
+       font-size: 2vh;
+      
+     }
+     .reviews button{
+        color: white;
+        background-color: rgb(13 13 13 / 87%);
+        position: relative;
+        left: 25%;
+        top: 19%;
+        width: 38vw;
+        height: 4vh;
+        background-color:rgb(13 13 13 / 87%);
+        letter-spacing: normal;
+        box-sizing: inherit;
+        text-transform: none;
+        font-size: 7px;
+    }
+    
+ }
+ @media screen and (min-width:320px) and (max-width:480px)/* for mobile in third part*/
+{
+    .findout{
+        flex-direction: column;
+    }
+    .review1 img{
+      width: 100%;
+      height: auto;
+    }
+    .review2{
+        text-align: start;
+      
+        padding-left: 4VH;
+        text-transform: none;
+        
+        
+     }
+     .review2 a{
+        color: inherit;
+        text-decoration: none;
+     }
+     .review2 button{
+        text-align: center;
+        word-wrap: break-word;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        text-transform: uppercase;
+        background-color: black;
+        color: white;
+        font-family: 'Montserrat', arial, sans-serif;
+        font-size: 1.2rem;
+        width: 93%;
+       
+       
+    
+     }
+     .review2 h1{
+        font-family: 'Montserrat', arial, sans-serif;
+        word-wrap: break-word;
+     }
+     .review2 h6{
+        font-family: 'Montserrat', arial, sans-serif;
+        line-height: 1.5;
+        font-size: 0.7rem;
+     }
+     .review2 span{
+        word-wrap: break-word;
+        line-height: 2;
+        font-family: 'Montserrat', arial, sans-serif;
+        font-weight: 1.5em;
+        text-transform: none;
+        font-size: 1.3em;
+       
+        
+     }
+    .reviews {
+        margin-top: 40px;
+        
+        max-width: 100%;
+        height: 22vh;
+        background-image: url(images/person.jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+        
+        
+     }
+        
+     .reviews h1{
+        color: #ffffff;
+        text-align: center;
+        position: relative;
+        right: 1%;
+        top: 18%;
+       
+      word-wrap: break-word;
+       font-family: 'Montserrat', arial, sans-serif;
+       text-transform: uppercase;
+       
+       font-size: 3vh;
+      
+     }
+     .reviews button{
+        color: white;
+        background-color: rgb(13 13 13 / 87%);
+        position: relative;
+        left: 26%;
+        top: 24%;
+        width: 43vw;
+        height: 5vh;
+        background-color: rgb(13 13 13 / 87%);;
+        letter-spacing: normal;
+        box-sizing: inherit;
+        text-transform: none;
+        font-size: 13px;
+    }
+    
+}
+@media screen and (min-width:480px) and (max-width:768px)/* for tablet in third part*/
+{
+    .findout{
+        flex-direction: column;
+    }
+    .review1 img{
+      width: 100%;
+      height: auto;
+    }
+    .review2{
+        text-align: start;
+       
+        padding-left: 4VH;
+        text-transform: none;
+       
+        
+     }
+     .review2 a{
+        color: inherit;
+        text-decoration: none;
+     }
+     .review2 button{
+        text-align: center;
+        word-wrap: break-word;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        text-transform: uppercase;
+        background-color: black;
+        color: white;
+        font-family: 'Montserrat', arial, sans-serif;
+        font-size: 1.2rem;
+        width: 100%;
+        
+       
+       
+       
+    
+     }
+     .review2 h1{
+        font-family: 'Montserrat', arial, sans-serif;
+        word-wrap: break-word;
+        line-height: 1.5;
+        font-size: 1.5rem;
+        
+     }
+     .review2 h6{
+        font-family: 'Montserrat', arial, sans-serif;
+        line-height: 1.5;
+        font-size: 0.7rem;
+     }
+     .review2 span{
+        word-wrap: break-word;
+        line-height: 1.7;
+        font-family: 'Montserrat', arial, sans-serif;
+        
+        text-transform: none;
+        font-size: 1.5em;
+       
+        
+     }
+    .reviews {
+        margin-top: 40px;
+        
+        max-width: 100%;
+        height: 40vh;
+        background-image: url(images/person.jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+        
+        
+     }
+        
+     .reviews h1{
+        color: #ffffff;
+        text-align: center;
+        position: relative;
+        right: 1%;
+        top: 18%;
+       
+      word-wrap: break-word;
+       font-family: 'Montserrat', arial, sans-serif;
+       text-transform: uppercase;
+       
+       font-size: 6vh;
+      
+     }
+     .reviews button{
+        color: white;
+        background-color: rgb(13 13 13 / 87%);
+        position: relative;
+        left: 25%;
+        top: 19%;
+        width: 48vw;
+        height: 10vh;
+        
+        letter-spacing: normal;
+        box-sizing: inherit;
+        text-transform: none;
+        font-size: 4vh;
+    }
+    
+    
+}
+@media screen and (min-width:768px) and (max-width:1024px)/* for laptop in third part*/
+{
+   .findout{
+      flex-direction: column;
+   }
+   .review1 img{
+      width: 100%;
+      height: auto;
+    }
+    .review2{
+        text-align: start;
+        padding-left: 4VH;
+       
+        text-transform: none;
+        
+        
+     }
+     .review2 a{
+        color: inherit;
+        text-decoration: none;
+     }
+     .review2 button{
+        text-align: center;
+        word-wrap: break-word;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        margin-top: 11PX;
+        text-transform: uppercase;
+        background-color: black;
+        color: white;
+        font-family: 'Montserrat', arial, sans-serif;
+        font-size: 1.5rem;
+       
+       
+       
+    
+     }
+     .review2 h1{
+        font-family: 'Montserrat', arial, sans-serif;
+        word-wrap: break-word;
+        font-size: 1.8rem;
+        line-height: 1.5;
+     }
+     .review2 h6{
+        font-family: 'Montserrat', arial, sans-serif;
+        line-height: 1.2;
+        font-size: 0.6rem;
+     }
+     .review2 span{
+        word-wrap: break-word;
+        line-height: 1.8;
+        font-family: 'Montserrat', arial, sans-serif;
+        
+        text-transform: none;
+        font-size: 1.5em;
+       
+        
+     }
+    .reviews {
+        margin-top: 40px;
+        
+        max-width: 100%;
+        height: 40vh;
+        background-image: url(images/person.jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+        
+        
+     }
+        
+     .reviews h1{
+        color: #ffffff;
+        text-align: center;
+        position: relative;
+        right: 1%;
+        top: 18%;
+       word-wrap: break-word;
+      
+       font-family: 'Montserrat', arial, sans-serif;
+       text-transform: uppercase;
+       
+       font-size: 6vh;
+      
+     }
+     .reviews button{
+        color: white;
+        background-color: rgb(13 13 13 / 87%);
+        position: relative;
+        left: 25%;
+        top: 18%;
+        width: 48vw;
+        height: 10vh;
+        
+        letter-spacing: normal;
+        box-sizing: inherit;
+        text-transform: none;
+        font-size: 4vh;
+    }
+    
+}
+@media screen and (min-width:1024px) /* for tv in third part*/
+{
+    .review2{
+        text-align: start;
+        padding-left: 4vh;
+        
+        text-transform: none;
+       
+        
+        
+     }
+     .review2 h1{
+      word-wrap: break-word;
+      line-height: 1.3;
+      letter-spacing: normal;
+      font-size: 1.8rem;
+     }
+     .review2 span{
+      word-wrap: break-word;
+      line-height: 1.5;
+      font-family: 'Montserrat', arial, sans-serif;
+      
+      text-transform: none;
+      font-size: 1.3em;
+     
+      
+   }
+   .review2 h6{
+      font-family: 'Montserrat', arial, sans-serif;
+      line-height: 1.2;
+      font-size: 1rem;
+   }
+     
+    
+}
+
+/*fourth part is the solutions part*/
+
+
+.solutions{
+   display: flex;
+  
+   margin-top: 40px;
+   margin-right: 50px;
+   margin-left: 50px;
+   margin-bottom: 0;
+ }
+ 
+ .audio img{
+    
+    max-width: 26vw;
+    height: 76vh;
+    object-fit: cover;
+    cursor: pointer;
+    
+   
+   
+ }
+ .audio a{
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    bottom: 285px;
+    left: 36px;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: white;
+    word-wrap: break-word;
+    text-transform: uppercase;
+ }
+ 
+ .network img{
+    cursor: pointer;
+    max-width: 26vw;
+    height: 76vh;
+    object-fit: cover;
+ }
+ .network a{
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    bottom: 285px;
+    left: 36px;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: white;
+    word-wrap: break-word;
+    text-transform: uppercase;
+ }
+ .datacenter img{
+    cursor: pointer;
+    max-width: 26vw;
+    height: 76vh;
+    object-fit: cover;
+ }
+ .datacenter a{
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    bottom: 285px;
+    left: 36px;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: white;
+    word-wrap: break-word;
+    text-transform: uppercase;
+ }
+ 
+ 
+ @media screen and (max-width:320px)   /* for mobile and less in fourth part*/
+ {
+    .solutions{
+       flex-direction: column;
+    }
+    
+    .audio{
+      text-align: center;
+    }
+    .network{
+      text-align: center;
+    }
+    .datacenter{
+      text-align: center;
+    }
+    .audio img{
+    
+       max-width: 120%;
+       height: 20vh;
+       object-fit: cover;
+       
+      
+      
+    }
+    .audio a{
+       text-decoration: none;
+       color: inherit;
+       position: relative;
+       bottom: 85px;
+       left: 5px;
+       font-size: 0.7rem;
+       font-weight: 400;
+       color: white;
+       word-wrap: break-word;
+       text-transform: uppercase;
+    }
+    
+    .network img{
+       
+       max-width: 120%;
+       height: 20vh;
+       object-fit: cover;
+    }
+    .network a{
+       text-decoration: none;
+       color: inherit;
+       position: relative;
+       bottom: 85px;
+       left: 5px;
+       font-size: 0.7rem;
+       font-weight: 400;
+       color: white;
+       word-wrap: break-word;
+       text-transform: uppercase;
+    }
+    .datacenter img{
+       
+       max-width: 120%;
+       height: 20vh;
+       object-fit: cover;
+    }
+    .datacenter a{
+       text-decoration: none;
+       color: inherit;
+       position: relative;
+       bottom: 85px;
+       left: 4px;
+       font-size: 0.7rem;
+       font-weight: 400;
+       color: white;
+       word-wrap: break-word;
+       text-transform: uppercase;
+    }
+    
+ 
+ }
+ @media screen and (min-width:320px) and (max-width:480px)/* for mobile in fourth part*/
+ {
+    .solutions{
+       flex-direction: column;
+       padding: none;
+       margin: none;
+    }
+    .solutions{
+      display: flex;
+     
+      margin-top: 40px;
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-bottom: -191px;
+    }
+    .audio{
+      text-align: center;
+      position: relative;
+      right: 2em;
+
+    }
+    .network{
+      text-align: center;
+      position: relative;
+      right: 2em;
+    }
+    .datacenter{
+      text-align: center;
+      position: relative;
+      right: 2em;
+    }
+    .audio img{
+    
+       max-width: 123%;
+       height: 40vh;
+       object-fit: cover;
+       
+       
+      
+      
+    }
+    .audio a{
+       text-decoration: none;
+       color: inherit;
+       position: relative;
+       bottom: 164px;
+       left: 20px;
+       font-size: 1.8rem;
+       font-weight: 900;
+       color: white;
+       word-wrap: break-word;
+       text-transform: uppercase;
+       line-height: 1.5;
+    }
+    
+    .network img{
+       
+       max-width: 123%;
+       height: 40vh;
+       object-fit: cover;
+       position: relative;
+       bottom: 73px;
+    }
+    .network a{
+       text-decoration: none;
+       color: inherit;
+       position: relative;
+       bottom: 235px;
+       left: 10px;
+       font-size: 1.9rem;
+       font-weight: 900;
+       color: white;
+       word-wrap: break-word;
+       text-transform: uppercase;
+       line-height: 1.5;
+    }
+    .datacenter img{
+       
+       max-width: 123%;
+       height: 40vh;
+       object-fit: cover;
+       position: relative;
+       bottom: 123px;
+    }
+    .datacenter a{
+       text-decoration: none;
+       color: inherit;
+       position: relative;
+       bottom: 295px;
+       left: 10px;
+       font-size: 1.9rem;
+       font-weight: 900;
+       color: white;
+       word-wrap: break-word;
+       text-transform: uppercase;
+       line-height: 1.5;
+    }
+    
+ 
+ }
+ @media screen and (min-width:480px) and (max-width:768px)/* for tablet in fourth part*/
+ {
+    .solutions{
+       flex-direction: column;
+    }
+    .audio{
+      text-align: center;
+    }
+    .network{
+      text-align: center;
+    }
+    .datacenter{
+      text-align: center;
+    }
+    .audio img{
+    
+       max-width: 100%;
+       
+       object-fit: cover;
+       
+      
+      
+    }
+    .audio a{
+       text-decoration: none;
+       color: inherit;
+       position: relative;
+       bottom: 385px;
+       left: 20px;
+       font-size: 1.9rem;
+       font-weight: 800;
+       color: white;
+       word-wrap: break-word;
+       text-transform: uppercase;
+       line-height: 1.5;
+    }
+    
+    .network img{
+       
+       max-width: 100%;
+       
+       object-fit: cover;
+    }
+    .network a{
+       text-decoration: none;
+       color: inherit;
+       position: relative;
+       bottom: 385px;
+       left: 20px;
+       font-size: 1.9rem;
+       font-weight: 800;
+       color: white;
+       word-wrap: break-word;
+       text-transform: uppercase;
+       line-height: 1.5;
+    }
+    .datacenter img{
+       
+       max-width: 100%;
+       
+       object-fit: cover;
+    }
+    .datacenter a{
+       text-decoration: none;
+       color: inherit;
+       position: relative;
+       bottom: 385px;
+       left: 20px;
+       font-size: 1.9rem;
+       font-weight: 800;
+       color: white;
+       word-wrap: break-word;
+       text-transform: uppercase;
+       line-height: 1.5;
+    }
+    
+ }
+ @media screen and (min-width:768px) and (max-width:1024px)/* for laptop in fourth part*/
+ {
+    .solutions{
+       flex-direction: column;
+    }
+    .audio img{
+    
+       max-width: 100%;
+      
+       object-fit: cover;
+       
+      
+      
+    }
+    .audio a{
+       text-decoration: none;
+       color: inherit;
+       position: relative;
+       bottom: 250px;
+       left: 30px;
+       font-size: 2.6rem;
+       font-weight: 900;
+       color: white;
+       word-wrap: break-word;
+       text-transform: uppercase;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .network img{
+       
+       max-width: 100%;
+      
+       object-fit: cover;
+    }
+    .network a{
+       text-decoration: none;
+       color: inherit;
+       position: relative;
+       bottom: 280px;
+       left: 18px;
+       font-size: 2.8rem;
+       font-weight: 900;
+       color: white;
+       word-wrap: break-word;
+       text-transform: uppercase;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .datacenter img{
+       
+       max-width: 100%;
+       height: auto;
+       object-fit: cover;
+    }
+    .datacenter a{
+       text-decoration: none;
+       color: inherit;
+       position: relative;
+       bottom: 200px;
+       left: 25px;
+       font-size: 2.8rem;
+       font-weight: 900;
+       color: white;
+       word-wrap: break-word;
+       text-transform: uppercase;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    
+ 
+ }
+ /* fifth part is description*/
+ .description{
+   background-color: #FF6900;
+   width: 100%;
+   height: auto;
+   
+  
+ }
+ .description1{
+   word-wrap: break-word;
+   display: flex;
+   align-items: center;
+   text-align: start;
+ }
+ .para{
+   padding-right: 15px;
+ }
+ .logopic{
+   padding: 60px;
+ }
+ .setup h1{
+   font-family: 'Archivo Black', arial, sans-serif;
+   font-size: 38px;
+   word-wrap: break-word;
+   font-weight: 900;
+   padding-top: 60px;
+   text-align: center;
+   padding-left: 13px;
+   padding-right: 13px;
+ }
+ @media screen and (min-width:768px) and (max-width:1024px)/* for laptop in fifth part*/
+ {
+   .description1{
+      flex-direction: column;
+   }
+   .para{
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align: start;
+      width: 83%;
+      font-size: 15px;
+      line-height: 1.6;
+   }
+   .logopic img{
+      width: 71vw;
+      height: 61vh;
+      
+   }
+ }
+ @media screen and (min-width:480px) and (max-width:768px)/* for tablet in fifth part*/
+ {
+   .description1{
+      flex-direction: column;
+   }
+   .para{
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align: start;
+      width: 92%;
+      font-size: 15px;
+      line-height: 1.6;
+   }
+   .logopic img{
+      width: 71vw;
+      height: 61vh;
+      
+   }
+ }
+ @media screen and (min-width:320px) and (max-width:480px)/* for mobile in fifth part*/
+ {
+   .description1{
+      flex-direction: column;
+   }
+   .para{
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align: start;
+      width: 95%;
+      font-size: 15px;
+      line-height: 1.6;
+   }
+   .logopic img{
+      width: 70vw;
+      height: 50vh;
+      
+   }
+ }
+ @media screen and (max-width:320px)/* for mobile or less in fifth part*/
+ {
+   .description1{
+      flex-direction: column;
+   }
+   .para{
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align: start;
+      width: 75%;
+   }
+   .logopic img{
+      width: 71vw;
+      height: 61vh;
+      
+   }
+ }
+ /* sixth part contact us part and joining email list*/
+ .contact{
+   text-align: center;
+ }
+ .contact h1{
+   font-weight: 900;
+   color: #FF6900;
+   font-size: 40px;
+   font-family: 'Archivo Black', arial, sans-serif;
+   text-transform: uppercase;
+ }
+ .contact p{
+   padding-left:5px;
+   padding-right:5px;
+
+ }
+ 
+ #container {
+   text-align: center;
+}
+
+#hours-container {
+   position: relative;
+   display: inline-block;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#hours {
+   cursor: pointer;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: linear-gradient(192deg,green,white,orange);
+   
+}
+
+#hours span {
+   color: orange;
+}
+
+#hours-dropdown {
+   display: none;
+   position: absolute;
+   background-color: white;
+   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+   z-index: 1;
+   width: 45%;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   margin-top: 5px;
+   text-align: left;
+}
+
+#hours-dropdown p {
+   padding: 10px;
+   margin: 0;
+   border-bottom: 1px solid #eee;
+}
+
+#hours-dropdown p:last-child {
+   border-bottom: none;
+}
+
+#hours-dropdown p:hover {
+   background-color: #f1f1f1;
+}
+.highlight {
+   color: orange;
+}
+.map-route{
+   background-color:white;
+}
+.mail-list{
+   text-align: center;
+   background-color: #F6F6F6;
+}
+.mail-list h3{
+   word-wrap: break-word;
+   color: rgb(87, 87, 87);
+   line-height: 1.5;
+   font-weight: 400;
+   text-transform: none;
+   font-family: Montserrat, arial, sans-serif;
+   color: rgb(87, 87, 87);
+}
+.mail-list h1{
+   word-wrap: break-word;
+   font-family: 'Archivo Black', arial, sans-serif;
+   margin-bottom: 16px;
+   margin-top: 18px;
+   color: rgb(21, 21, 21);
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 1.2;
+   text-transform: uppercase;
+}
+.container {
+   width: 45%;
+   margin: 30px auto;
+   text-align: center;
+}
+.input-container {
+   position: relative;
+   margin: 20px 0;
+}
+.input-container input[type="email"] {
+   width: 100%;
+   padding: 10px;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+   box-shadow: rgba(238, 209, 209, 0.15) 2.4px 2.4px 3.2px;
+}
+.input-container label {
+   position: absolute;
+   top: 12px;
+   left: 12px;
+   font-size: 16px;
+   color: #a0a0a0;
+   pointer-events: none;
+   transition: 0.2s ease all;
+}
+.input-container input:focus ~ label,
+.input-container input:not(:placeholder-shown) ~ label {
+   top: -10px;
+   left: 10px;
+   font-size: 12px;
+   color: #000;
+   background: #fff;
+   padding: 0 5px;
+}
+ .container button {
+   width: 100%;
+   padding: 10px;
+   background-color:rgb(225, 92, 39);
+   font-weight: 800;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 20px;
+}
+ .container button:hover {
+   background: linear-gradient(192deg,green,white,orange);
+   
+}
+/*last part m&c gallery and home*/
+.gallery h1{
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   letter-spacing: normal;
+   text-transform: uppercase;
+   font-family: 'Archivo Black', arial, sans-serif;
+   word-wrap: break-word;
+   color: rgb(247, 102, 0);
+   line-height: 1.4;
+   font-weight: 800;
+   
+}
+* {box-sizing: border-box;}
+
+body {font-family: Verdana, sans-serif; margin:0}
+
+.slideshow-container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%; /* Ensure the image takes the full width of the slide */
+  height: 400px; /* Set a specific height for the main images */
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Ensure thumbnails wrap to the next line on smaller screens */
+  margin-top: 10px;
+}
+
+.thumbnail {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.thumbnail img {
+  width: 100px;
+  height: 60px;
+  opacity: 0.6;
+  transition: 0.3s;
+  
+}
+
+.thumbnail img:hover {
+  opacity: 1;
+  border: 3px solid rgb(233, 98, 21);
+
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+  .slide img {
+    height: auto; 
+  }
+  
+  .thumbnail img {
+    width: 80px; 
+    height: 48px; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .thumbnail img {
+    width: 60px; 
+    height: 36px; 
+  }
+}
+/* last home button*/
+.home{
+   padding-top: 40px;
+   margin-top: 30px;
+   width: 100%;
+   height: 40vh;
+   background: linear-gradient(192deg,green,white,orange);
+}
+.home1{
+   display: flex;
+   gap: 42%;
+   
+}
+.copy{
+   font-size: 18px;
+   font-weight: 800;
+}
+.powered{
+   padding-top:10px ;
+   font-size: 18px;
+   font-weight: 800;
+}
+.home h1{
+   text-align: center;
+   
+}
+.home2 a{
+   text-decoration: none;
+   color: inherit;
+   text-transform: uppercase;
+}
+@media screen and (max-width:320px)/* for mobile and less in sixth part*/
+ {
+   .home1{
+      flex-direction: column;
+      text-align: center;
+   }
+ }
+@media screen and (min-width:320px) and (max-width:480px)/* for mobile in sixth part*/
+ {
+   .home1{
+      flex-direction: column;
+      text-align: center;
+   }
+ }
+ @media screen and (min-width:480px) and (max-width:768px)/* for tablet in sixth part*/
+ {
+   .home1{
+      flex-direction: column;
+      text-align: center;
+   }
+ }
+ @media screen and (min-width:768px) and (max-width:1024px)/* for laptop in sixth part*/
+ {
+   .home1{
+      flex-direction: column;
+      text-align: center;
+   }
+ }
+ body {
+   font-family: Arial, sans-serif;
+}
+
+.icon {
+   width: 60px;
+   height: 60px;
+   background-color: #FF6900;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   cursor: pointer;
+}
+
+.icon .bubble {
+   width: 30px;
+   height: 20px;
+   background-color: black;
+   position: relative;
+   clip-path: polygon(10% 0%, 100% 0%, 100% 70%, 70% 70%, 50% 100%, 50% 70%, 10% 70%);
+}
+
+.login-box {
+   display: none;
+   position: fixed;
+   bottom: 80px;
+   right: 20px;
+   width: 300px;
+   background: linear-gradient(192deg,orange,white,green);
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   border-radius: 30px;
+}
+
+.login-box form {
+   display: flex;
+   flex-direction: column;
+}
+
+.login-box form h2 {
+   margin-bottom: 20px;
+   margin-top: 50px;
+}
+
+.login-box form label {
+   margin-bottom: 5px;
+}
+
+.login-box form input {
+   margin-bottom: 10px;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+.login-box form button {
+   padding: 10px;
+   background-color: orange;
+   border: none;
+   border-radius: 5px;
+   color: black;
+   cursor: pointer;
+   font-size: 1.2rem;
+}
+
+.login-box form button:hover {
+   background: linear-gradient(192deg,green,white,orange);
+}
