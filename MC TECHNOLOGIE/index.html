@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC Technologies</title>
+    <link rel="stylesheet" href="Homepage.css"> 
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</head>  
+<body>
+    <div>
+        <nav class="navbar">
+            <div class="logo"><a style="text-decoration: none;color:white;" href="/index.html">M&C Technologies</a></div>
+            <ul class="nav-items">
+                <li><a href="#" onclick="showSection('about-us')">ABOUT US</a></li>
+                
+                <li class="dropdown">
+                    <a href="#">SOLUTIONS</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" onclick="showSection('Video-Conferencing-Solution')">Video Conferencing Solutions </a></li>
+                        <li><a href="#" onclick="showSection('Networking-Security-solution')">Networking & Security Solutions </a></li>
+                        <li><a href="#" onclick="showSection('Enterprise-Solutions')">Enterprise Solutions </a></li>
+                        <li><a href="#" onclick="showSection('Integrated-IT-Infrastructure')">Integrated IT Infrastructure</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#">PRODUCTS</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" onclick="showSection('Video-Conferencing')">Video Conferencing</a></li>
+                        <li><a href="#" onclick="showSection('Networking-Wireless')">Networking & Wireless</a></li>
+                        <li><a href="#" onclick="showSection('Servers-Storage')">Servers & Storage</a></li>
+                        <li><a href="#" onclick="showSection('Desktop-Laptops')">Desktop & Laptops</a></li>
+                        <li><a href="#" onclick="showSection('Printers')">Printers</a></li>
+                        <li><a href="#" onclick="showSection('Other-Products')">Other Products</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#">SERVICES</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" onclick="showSection('All-types')">All types of IT Hardware</a></li>
+                        <li><a href="#" onclick="showSection('Networking-Wireless-service')">Networking & Wireless Services</a></li>
+                        
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#">CAREERS</a>
+                    <ul class="dropdown-menu">
+                         <!-- Some data is having these we can add it later-->
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#">CONTACT US</a>
+                    <ul class="dropdown-menu">
+                        <!-- Some data is having these we can add it later-->
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    
+        <!-- Add corresponding sections with IDs to match the links -->
+        <section id="about-us" class="content-section">
+            <h2>About Us</h2>
+           
+            <p>Established in May 2024, M & C Technologies is a dynamic player in the IT industry, specializing in Networking & Video conferencing Solutions tailored for modern business needs. Our comprehensive range of offerings includes Custom-built & Branded Workstations, Servers & Storage Solutions, Networking Products(Switching, wireless & Security) & other all IT Hardware components.
+            </p>
+            <p><span>Core Offerings and Specializations - </span>
+                M & C Technologies excels in crafting tailored IT solutions that enhance operational efficiency and drive technological innovation. Our team of experts collaborates closely with clients to understand their unique requirements and deliver cutting-edge solutions that meet and exceed expectations. We are committed to leveraging the latest advancements in technology to optimize business processes and empower organizations to achieve their goals effectively.
+            </p>
+            <p><span>Customization Excellence - </span>
+                M & C Technologies excels in crafting tailored IT solutions that enhance operational efficiency and drive technological innovation. Our team of experts collaborates closely with clients to understand their unique requirements and deliver cutting-edge solutions that meet and exceed expectations. We are committed to leveraging the latest advancements in technology to optimize business processes and empower organizations to achieve their goals effectively.
+            </p>
+            <p><span>Industry Expertise - </span>
+                With a deep understanding of enterprise needs and emerging technologies, we provide strategic insights and innovative solutions that propel our clients ahead in their respective industries.
+            </p>
+            <p><span>Nationwide Reach and Support - </span>
+                Our extensive network enables us to deliver seamless service and support across India, ensuring continuity and reliability for multi-branch organizations.
+            </p>
+            <p><span>Commitment to Excellence - </span>
+                At M & C Technologies, excellence is not just a goal but a commitment. We strive to uphold the highest standards of quality, reliability and customer satisfaction in everything we do. By staying at the forefront of technological advancements and maintaining strong partnerships with leading IT manufacturers, we ensure that our clients receive the best-in-class solutions and support.
+            </p>
+            
+            <img class="wid" src="images/mission1.jpg" alt="misson">
+            <p><span>Our Mission - </span>
+                At M & C Technologies, our mission is to empower businesses with cutting-edge IT solutions that enhance efficiency, foster innovation and drive growth. We are dedicated to delivering customized, reliable, and scalable technology solutions that exceed our clients' expectations and contribute positively to their success.
+            </p>
+            <img class="wid" src="images/vision1.jpg" alt="vision" >
+            <p><span>Our Vision - </span>
+                Our vision is to be a leading provider of innovative IT solutions in India, known for our commitment to excellence, customer-centric approach, and technological expertise. We aspire to continuously evolve and adapt to the changing needs of the industry, while maintaining the highest standards of integrity, professionalism, and service delivery.
+            </p>
+            <p class="office">
+                <span>Registered Office : </span>
+                H.No: 30-276/2/2/A, OLD SAFILGUDA, SUDHA NAGAR COLONY,NEAR D MART, MALKAJGIRI, Secunderabad-500056
+            </p>
+            <p class="office">
+                <span>Phone Number : +91 7416912796</span>
+            </p>
+            <p class="office"><span>Website : </span>
+                <a href="/index.html">rmr@mctechnologies.co.in </a>
+
+            </p>
+            <p class="office">
+    <span>Email : </span>
+    <a href="mailto:mctechnologies01@gmail.com">mctechnologies01@gmail.com</a>
+</p>
+
+
+
+            
+        </section>
+    
+        <section id="Video-Conferencing-Solution" class="content-section">
+            <h2>VIDEO CONFERENCING SOLUTION</h2>
+            <img class="midone" src="images/video.jpeg" height="320px" width="70%" alt="Video-Conferencing-Solution">
+            <p>M & C Technologies provides cutting-edge video conferencing solutions designed to facilitate seamless communication and collaboration for businesses and organizations. Whether you're conducting remote meetings, virtual seminars, or interactive training sessions, our solutions offer high-quality audio and video capabilities to enhance productivity and connectivity.</p>
+            <p><span>High Definition Video - </span>
+                Experience crisp, clear video quality with high-definition cameras and displays, ensuring a lifelike meeting experience.
+            </p>
+            <p><span>Integrated Audio Solutions - </span>
+                Enjoy crystal-clear audio with advanced microphone arrays and speaker systems designed for optimal voice clarity and minimal background noise.
+            </p>
+            <p><span>Collaboration Tools - </span>
+                Enhance productivity with interactive features such as screen sharing, white boarding, and document sharing, fostering real-time collaboration among participants.
+            </p>
+            <p><span>Flexible Deployment Options - </span>
+                Our video conferencing solutions support both on-premises deployment and cloud-based services, providing flexibility to meet your organization's specific needs and infrastructure preferences.
+            </p>
+            <p><span>Security and Reliability - </span>
+                Enjoy crystal-clear audio with advanced microphone arrays and speaker systems designed for optimal voice clarity and minimal background noise.
+            </p>
+            <p><span>Customization and Integration - </span>
+                Tailored to fit your organization's requirements, we offer scalable solutions that integrate seamlessly with your existing IT infrastructure. Whether you're a small business, educational institution, or multinational corporation, our video conferencing solutions are adaptable to support your growth and operational objectives.
+            </p>
+            <p><span>Expertise and Support - </span>
+                Backed by our team of certified technicians and support specialists, we provide comprehensive consultation, installation, training, and ongoing technical support. We are committed to delivering reliable video conferencing solutions that empower your organization to connect, collaborate, and succeed in a global marketplace.
+            </p>
+        </section>
+    
+        <section id="Networking-Security-solution" class="content-section">
+            <h2>NETWORKING & SECURITY SOLUTION</h2>
+            <img class="midone" src="images/network.jpeg" height="320px" width="70%" alt="Video-Conferencing-Solution">
+            <p>M & C Technologies offers a wide array of networking solutions designed to optimize connectivity, enhance performance, and streamline operations for businesses of all sizes. We provide robust networking infrastructure tailored to meet the evolving demands of modern IT environments.</p>
+            <p><span>Networking Equipment - </span>
+                Our portfolio includes a comprehensive range of networking equipment such as Routers, Switches, Access points and Network Security Appliances. We partner with leading brands to offer reliable and scalable solutions that ensure seamless communication and data transfer across your organization.
+            </p>
+            <p><span>Wireless Networking - </span>
+                Embrace mobility with our wireless networking solutions that deliver fast and secure connectivity. From designing and deploying Wi-Fi networks to managing wireless access points and controllers, we provide solutions that support mobile workforce productivity and enhance user experience.
+            </p>
+            <p><span>Network Security - </span>
+                Protect your data and network infrastructure with our advanced network security solutions. We offer firewall appliances, intrusion detection and prevention systems (IDPS), VPN solutions, and endpoint security measures to safeguard against cyber threats and ensure compliance with regulatory requirements.
+
+            </p>
+            <p><span>Cloud Networking - </span>
+                Transition to cloud-centric networking with our expertise in cloud networking solutions. We help businesses leverage cloud platforms for centralized management, scalability, and cost-efficiency in networking operations.
+            </p>
+            <p><span>Key Features - </span>
+                Our networking solutions are built on industry-leading technologies, ensuring high performance, reliability, and scalability. Whether you're establishing a new network infrastructure, upgrading existing systems, or implementing advanced security measures, M & C Technologies provides tailored solutions that align with your business objectives.
+            </p>
+            <p><span>Expertise and Support - </span>
+                With a team of certified network engineers and consultants, we offer comprehensive consultation, design, implementation, and ongoing support services. We are committed to delivering reliable networking solutions that enable your business to thrive in a connected world.
+            </p>
+        </section>
+    
+        <section id="Enterprise-Solutions" class="content-section">
+            <h2>ENTERPRISE SOLUTIONS</h2>
+            <img class="midone" src="images/enterprise.jpeg" height="320px" width="70%" alt="Video-Conferencing-Solution">
+            <p>At M & C Technologies, we offer a suite of cutting-edge enterprise solutions designed to streamline operations, enhance productivity, and drive growth across your organization. Our solutions encompass a wide range of IT services, from robust infrastructure management and cloud computing to advanced data analytics and cyber security. By integrating these technologies, we help businesses like yours optimize their workflows, improve decision-making, and stay ahead in a competitive landscape. Whether you need to modernize your IT infrastructure or implement complex enterprise applications, our expert team delivers tailored solutions that align with your strategic goals and operational needs.</p>
+            <P>Achieve Seamless Integration and Operational Excellence
+                Our enterprise solutions are crafted to ensure seamless integration with your existing systems, providing a cohesive and efficient IT environment. At M & C Technologies, we focus on delivering scalable and flexible solutions that grow with your business, allowing you to adapt to market changes and technological advancements. Our dedicated support team is committed to ensuring the smooth deployment and ongoing management of your solutions, offering proactive assistance and expert guidance every step of the way. Partner with us to achieve operational excellence, unlock new capabilities, and drive innovation across your enterprise.</P>
+        </section>
+    
+        <section id="Integrated-IT-Infrastructure" class="content-section">
+            <h2>INTEGRATED IT INFRASTRUCTURE</h2>
+            <img class="midone" src="images/integrated.jpeg" height="320px" width="70%" alt="Video-Conferencing-Solution">
+            <p>We provide end-to-end solutions for setting up and maintaining efficient IT infrastructure within your workspace. This includes deploying high-performance PCs, mobile workstations, servers, and networking , Wireless equipment that are essential for seamless operations and data management.</p>
+            <p><span>Collaboration Tools - </span>
+                Foster teamwork and communication with advanced collaboration tools such as video conferencing systems, interactive displays, and unified communication platforms. These tools enable remote and in-office teams to collaborate effectively, share information, and make informed decisions in real-time.
+            </p>
+            <p><span>Workspace Design and Ergonomics - </span>
+                Enhance employee comfort and productivity with ergonomic furniture, adjustable workstations, and optimized workspace layouts. Our solutions focus on creating ergonomic environments that support employee well-being and reduce fatigue, thereby boosting overall productivity.
+            </p>
+            <p><span>Security and Compliance - </span>
+                Protect sensitive data and ensure regulatory compliance with robust cybersecurity measures, data encryption solutions, and access control systems. We help businesses implement security protocols that safeguard digital assets and mitigate risks associated with cyber threats.
+            </p>
+            <p><span>Support and Maintenance - </span>
+                With our proactive support services, including IT consulting, system monitoring, and helpdesk support, we ensure smooth operation of your workspace solutions. Our team of experts is dedicated to providing timely assistance and resolving technical issues to minimize downtime and optimize workflow efficiency.
+            </p>
+            <p><span>Scalability and Flexibility - </span>
+                Whether you're a start-up, SME, or large enterprise, our scalable workspace solutions can be customized to meet your current needs and accommodate future growth. We offer flexible deployment options, including on-premises, cloud-based, and hybrid solutions, tailored to fit your organizational goals and budget.
+            </p>
+            <p><span>Expertise and Partnership - </span>
+                With years of experience and industry expertise, M & C Technologies is your trusted partner in transforming workspaces into efficient, collaborative, and secure environments. We collaborate closely with clients to understand their unique requirements and deliver innovative solutions that drive business success.
+            </p>
+
+        </section>
+        <section id="Video-Conferencing" class="content-section">
+            <h2>Video-Conferencing</h2>
+            <ul>
+                <li>Logitech</li>
+                <li>Poly</li>
+                <li>Neat bar</li>
+                <li>Peoplelink</li>
+
+            </ul>
+        </section>
+        <section id="Networking-Wireless" class="content-section">
+            <h2>Networking-Wireless</h2>
+            <ul>
+                <li>Ruckus</li>
+                <li>Cisco</li>
+                <li>Juniper</li>
+                <li>Fortigate</li>
+                <li>Cambium Networks</li>
+                <li>Aruba</li>
+                <li>Ubiquiti</li>
+                <li>Grandstream</li>
+
+
+            </ul>
+        </section>
+        <section id="Servers-Storage" class="content-section">
+            <h2>Servers-Storage</h2>
+            <ul>
+                <li>HPE</li>
+                <li>Dell</li>
+                <li>Lenovo</li>
+
+            </ul>
+        </section>
+        <section id="Desktop-Laptops" class="content-section">
+            <h2>Desktop-Laptops</h2>
+            <ul>
+                <li>Apple</li>
+                <li>Lenovo</li>
+                <li>HP</li>
+                <li>Dell</li>
+                <li>Acer</li>
+                <li>ASUS</li>
+
+            </ul>
+        </section>
+        <section id="Printers" class="content-section">
+            <h2>Printers</h2>
+            <ul>
+                <li>HP</li>
+                <li>Canon</li>
+                <li>Epson</li>
+                <li>Brother</li>
+
+            </ul>
+        </section>
+        <section id="Other-Products" class="content-section">
+            <h2>Other-Products</h2>
+            <ul>
+                <li>Tally</li>
+                <li>Adobe</li>
+                <li>Microsoft</li>
+            </ul>
+        </section>
+    
+        <section id="services" class="content-section">
+            <h2>Services</h2>
+            <p>Details about Services...</p>
+        </section>
+    
+        <section id="careers" class="content-section">
+            <h2>Careers</h2>
+            <p>Details about Careers...</p>
+        </section>
+    
+        <section id="contact-us" class="content-section">
+            <h2>Contact Us</h2>
+            <p>Details on how to contact us...</p>
+        </section>
+    </div>
+    
+    
+   <div class="head">
+    <div class="logopart">
+        <div>
+        <img class="image1" src="https://img1.wsimg.com/isteam/ip/558330cb-654e-421d-9a75-f69ded3087b2/Rack-server-and-blade-server-together.jpg">
+        </div>
+        <img class="logoimg" src="images\Logo.jpeg">
+    </div>
+    <div class="textpart">
+        <h1>REVOLUTIONIZE  YOUR BUSINESS WITH TECHNOLOGY</h1>
+        <p>Transforming small businesses through innovative computer solutions</p>
+        <button class="butt"><a href="#"> Leave a Little Spark</a></button>
+    </div>
+</div> 
+  
+  <!-- Feedback Button -->
+  <div class="side-button">
+    <button class="feedback-button" onclick="toggleFeedbackForm()">Feedback</button>
+  </div>
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay" onclick="toggleFeedbackForm()"></div>
+
+  <!-- Feedback Form Popup -->
+  <div class="feedback-form-container" id="feedbackForm">
+    <h2 id="valuefeed">We Value Your Feedback</h2>
+    <form id="form">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email">
+        </div>
+        <div class="field">
+          <label for="feedback">Feedback</label>
+          <input type="text" name="feedback" id="feedback">
+        </div>
+        <input type="submit" id="button" value="Send Email">
+    </form>
+      
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+      
+    <script type="text/javascript">
+        emailjs.init('LSyquJuiE9SfADpcc');
+
+
+    </script>
+</div>
+
+  
+<h2>WWW.MCTECHNOLOGIES.CO.IN DIFFERENCE</h2> 
+
+<div class="services">
+    
+    <div class="service1">
+        <img src="https://img1.wsimg.com/isteam/stock/jQRO3D/:/rs=w:730,h:730,cg:true,m/cr=w:730,h:730">
+        <h4>Expertise</h4>
+        <p>At <a id="link" href="#">www.mctechnologies.co.in</a>,We are a team of skilled and certified computer technicians who have years of experience in the industry.We continuosuly update our skills and knowledge to ensure that we provide the best solutions for your computer problems.</p>
+    </div>
+    <div class="service2">
+        <img src="https://img1.wsimg.com/isteam/ip/558330cb-654e-421d-9a75-f69ded3087b2/Logitech%20VC%20Room.jpeg/:/cr=t:0%25,l:21.88%25,w:56.25%25,h:100%25/rs=w:730,h:730,cg:true">
+        <h4>Audio Video Solutions</h4>
+        <p>We understand the importance of your meeting room, That's why we offer competitive pricing and flexible payment options to make our services accessible to everyone.</p>
+    </div>
+    <div class="service3">
+        <img src="https://img1.wsimg.com/isteam/stock/DxxgW5w/:/rs=w:730,h:730,cg:true,m/cr=w:730,h:730">
+        <h4>Customer Service</h4>
+        <p>We believe that excellent customer service is the foundation of our business. Our team is committed to providing friendly and personalized service to all our customers. We listen to your needs and work with you to find the best solutions for your computer problems.</p>
+    </div>
+</div>
+<div class="reviews">
+    <h1>CUSTOMER REVIEWS THAT SPEAK VOLUMES</h1>
+    <button>Reviews coming soon!</button>
+    
+</div>
+<div class="findout">
+<div class="review1">
+    <img src="images/networking-solutions.jpg">
+</div>
+<div class="review2">
+    <h6>Hello</h6>
+    <h1>WELCOME TO WWW.MCTECHNOLOGIES.CO.IN!</h1>
+    <p><span>We are your one-stop-shop for all your computer needs. From hardware to software, we've got you covered. Browse our selection and find what you're looking for today.</span></p>
+    <button><a href="#">find out more</a></button>
+
+</div>
+</div>
+
+<div class="solutions">
+    
+    <div class="audio">
+        <img src="images/LogitechVCRoom.jpeg"><br/>
+        <a href="#">audio/video solutions</a>
+    </div>
+    <div class="network">
+        <img src="images/networkimg.jpeg"><br/>
+        <a href="#">networking solutions</a>
+    </div>
+    <div class="datacenter">
+        <img src="images/Rack-server-and-blade-server-together.jpg"><br/>
+        <a href="#">datacenter solutions</a>
+    </div>
+</div>
+<div class="description">
+    <div class="setup">
+    <h1>UPGRADE YOUR OFFICE SETUP WITH WWW.MCTECHNOLOGIES.CO.IN</h1>
+    </div>
+    
+
+<div class="description1">
+<div class="logopic">
+    <img src="images/Logo.jpeg" width="350px" height="350px">
+</div>
+<div class="para">
+    <div class="para1">
+    <h3>Audio Video Solution</h3>
+    <p>Video conferencing—sometimes referred to as a video meeting, virtual meeting, or web conferencing—is a way to <b>bring two or more people together in a virtual setting through live video and audio.</b> Participants connect using video conference software across web, desktop, mobile, or a video system to replicate the feeling of being in the same room.</p>
+    </div>
+
+    <div class="para2">
+    <h3>Networking Solutions</h3>
+    <p>Will provide all types of networking solutions. Switching, Routing & smart wifi solutions.</p>
+
+</div>
+<div class="para3">
+    <h3>IT Hardware Solutions</h3>
+    <p>IT Hardware design, Supply & Installation of all IT Hardware products(Desktops , Laptops, Servers, Storage & Peripherals).</p>
+
+</div>
+<div class="para4">
+    <h3>Gaming Monitors</h3>
+    <p>Get the most out of your gaming experience with our high-quality gaming monitors. With fast refresh rates and high resolutions, you'll be able to see every detail.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="total">
+<div class="contact">
+    <h1>CONTACT US</h1><br/>
+    <b>+91 74169 12796</b><br><br>
+    <a href="#"> rmr@mctechnologies.co.in </a><br/>
+    <h3>www.mctechnologies.co.in</h3><br>
+    <p>OLD SAFIL GUDA, SUDHA NAGAR, NEAR D Mart, MALKAJGIRI, Secunderabad-500056</p><br>
+</div>
+<div id="hours-container">
+    <p id="hours">Open today: <span id="today-hours">09:00 am - 05:00 pm</span> <span>&#9662;</span></p>
+    <div id="hours-dropdown">
+        <p id="sunday">Sunday: Closed</p>
+        <p id="monday">Monday: 09:00 am - 05:00 pm</p>
+        <p id="tuesday">Tuesday: 09:00 am - 05:00 pm</p>
+        <p id="wednesday">Wednesday: 09:00 am - 05:00 pm</p>
+        <p id="thursday">Thursday: 09:00 am - 05:00 pm</p>
+        <p id="friday">Friday: 09:00 am - 05:00 pm</p>
+        <p id="saturday">Saturday: Closed</p>
+    </div>
+</div>
+</div>
+<div class="mail-list">
+    <h1>JOIN OUR MAILING LIST</h1>
+    <h3>Get 10% off your first purchase when you sign up for our newsletter!</h3>
+    <div class="container">
+        <div class="input-container">
+            <input type="email" placeholder=" " id="email">
+            <label for="email">Email Address</label>
+        </div>
+        <button type="button">SIGN UP</button>
+    </div>
+</div>
+
+<div class="gallery">
+    <h1>M & C TECHNOLOGIES PHOTO GALLERY</h1>
+</div>
+<div class="slideshow-container">
+    <div class="slide fade">
+        <img src="images/hardware.jpg" style="width:100%">
+    </div>
+    <div class="slide fade">
+        <img src="images/logitech_meet_01.jpg" style="width:100%">
+    </div>
+    <div class="slide fade">
+        <img src="images/LogitechVCRoom.jpeg" style="width:100%">
+    </div>
+    <div class="slide fade">
+        <img src="images/Logo.jpeg" style="width:100%">
+    </div>
+    <div class="slide fade">
+        <img src="images/networkimg.jpeg" style="width:100%">
+    </div>
+    <div class="slide fade">
+        <img src="images/Networking-Services.jpg" style="width:100%">
+    </div>
+    <div class="slide fade">
+        <img src="images/networking-solutions.jpg" style="width:100%">
+    </div>
+    <div class="slide fade">
+        <img src="images/person.jpeg" style="width:100%">
+    </div>
+    <div class="slide fade">
+        <img src="images/Rack-server-and-blade-server-together.jpg" style="width:100%">
+    </div>
+    <div class="slide fade">
+        <img src="images/talk.vcLogitech-Rally-Bar.png" style="width:100%">
+    </div>
+
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Thumbnail images -->
+<div class="thumbnail-container">
+    <div class="thumbnail" onclick="currentSlide(1)">
+        <img src="images/hardware.jpg">
+    </div>
+    <div class="thumbnail" onclick="currentSlide(2)">
+        <img src="images/logitech_meet_01.jpg">
+    </div>
+    <div class="thumbnail" onclick="currentSlide(3)">
+        <img src="images/LogitechVCRoom.jpeg">
+    </div>
+    <div class="thumbnail" onclick="currentSlide(4)">
+        <img src="images/Logo.jpeg">
+    </div>
+    <div class="thumbnail" onclick="currentSlide(5)">
+        <img src="images/networkimg.jpeg">
+    </div>
+    <div class="thumbnail" onclick="currentSlide(6)">
+        <img src="images/Networking-Services.jpg">
+    </div>
+    <div class="thumbnail" onclick="currentSlide(7)">
+        <img src="images/Rack-server-and-blade-server-together.jpg">
+    </div>
+    <div class="thumbnail" onclick="currentSlide(8)">
+        <img src="images/person.jpeg">
+    </div>
+    <div class="thumbnail" onclick="currentSlide(9)">
+        <img src="images/talk.vcLogitech-Rally-Bar.png">
+    </div>
+    <div class="thumbnail" onclick="currentSlide(10)">
+        <img src="images/networking-solutions.jpg">
+    </div>
+</div>
+
+<footer class="home">
+    <div class="home1">
+    <div class="copy">Copyright © 2024 <a href="#">www.mctechnologies.co.in</a> - All Rights Reserved.
+    </div>
+    <div class="powered">Powered by M&C</div>
+    </div>
+   <div class="home2"><h1><a href="#">Home</a></h1></div>
+    <div class="icon">
+   <button class="sticky"></button>
+    </div>
+    <div class="icon" onclick="toggleLoginBox()">
+        <div class="bubble"></div>
+    </div>
+
+    <div class="login-box" id="loginBox">
+        <form>
+            <h2>Login</h2>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+            
+        </form>
+    </div>
+
+</div>
+</div>
+</footer>
+</body>
+</html>
